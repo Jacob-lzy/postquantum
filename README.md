@@ -35,3 +35,32 @@ The next week should focus on the modeling or read the security proof?
 Continously model hash functions.
 Start to model the WOTS+.
 Half-hour to solve Emacs, if not push to the week after.
+##### *Summary.*
+constant library, constant declaration (nature number declaration).
+
+## **Week plan 5.8-5.14 (2023)**
+##### *1. Hash functions and Pseudorandom function modeling.* 
+* (Short-input hash functions) F:{0,1}^n -> {0,1}^n & H:{0,1}^2n -> {0,1}^n.
+* (Arbitrary-input hash function) H':{0,1}^n * {0,1}^* -> {0,1}^m, where m=poly(n).
+* (A family of pseudorandom generator) G_lemda: {0,1}^n -> {0,1}^(lemda*n).
+* (Pseudorandom function family) F_lemda: {0,1}^lemda * {0,1}^n -> {0,1}^n & F': {0,1}^* * {0,1}^n -> {0,1}^2n
+##### *2. Identify problem when modeling.*
+The easycrypt summer school part1: https://www.youtube.com/watch?v=vEE84uuOX_Q
+The coq tutorial for this week: https://www.youtube.com/watch?v=tZRAFKIv6Js&list=PLDD40A96C2ED54E99&index=5
+###### Notes for the video
+Pseudorandom function f: K x N -> M.
+AllCore: integers, booleans, real numbers.
+SmtMap: functional maps
+###### Notes for second coq tutorial
+In Coq, a proposition is a statement or a claim that can either be true or false. 
+It represents a logical assertion or a piece of knowledge that we want to prove or reason about.
+##### *3. Something need to update during the meeting.*
+Show the hash functions modeling.
+Optional-Show second coq tutorial.
+##### *4. Something need help to solve.*
+The next week should focus on the modeling WOTS+ or read the security proof?
+##### *5. Plan for next week.*
+Start to model the Pseudorandom function.
+Did not spend time to solve Emacs, push to next week.
+##### *Summary.*
+Hash functions modelling. First easycrypt video done. Second coq tutorial.
